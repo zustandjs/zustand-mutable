@@ -2,7 +2,7 @@
   "name": "zustand-mutable",
   "private": false,
   "description": "A sweet way to use immer-like mutable updates",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "author": "Danilo Britto",
   "repository": {
     "type": "git",
