@@ -1,8 +1,8 @@
 # zustand-mutable
 
-[![npm version](https://img.shields.io/npm/v/zustand-mutable.svg)](https://www.npmjs.com/package/zustand-mutable)
-[![test](https://github.com/zustandjs/zustand-mutable/actions/workflows/test.yml/badge.svg)](https://github.com/zustandjs/zustand-mutable/actions/workflows/test.yml)
-[![license](https://img.shields.io/npm/l/zustand-mutable.svg)](https://github.com/zustandjs/zustand-mutable/blob/main/LICENSE)
+[![build](https://img.shields.io/github/actions/workflow/status/zustandjs/zustand-mutable/test.yml?branch=main)](https://github.com/zustandjs/zustand-mutable/actions?query=workflow%3ACI)
+[![npm](https://img.shields.io/npm/v/zustand-mutable)](https://www.npmjs.com/package/zustand-mutable)
+[![size](https://img.shields.io/bundlephobia/minzip/zustand-mutable)](https://bundlephobia.com/result?p=zustand-mutable)
 
 A sweet way to use immer-like mutable updates with Zustand.
 
