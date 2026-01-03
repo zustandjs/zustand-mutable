@@ -4,9 +4,7 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   resolve: {
     alias: {
-      "zustand-mutable": fileURLToPath(
-        new URL("./src/index.ts", import.meta.url),
-      ),
+      "zustand-mutable": fileURLToPath(new URL("./src/index.ts", import.meta.url)),
     },
   },
   test: {
@@ -14,9 +12,7 @@ export default defineConfig({
     globals: true,
     environment: "happy-dom",
     dir: "tests",
-    reporters: process.env.GITHUB_ACTIONS
-      ? ["default", "github-actions"]
-      : ["default"],
+    reporters: process.env.GITHUB_ACTIONS ? ["default", "github-actions"] : ["default"],
     setupFiles: ["tests/setup.ts"],
     coverage: {
       include: ["src/**/"],

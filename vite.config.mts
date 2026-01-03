@@ -6,13 +6,13 @@ import dts from "vite-plugin-dts";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-	plugins: [dts({ include: "src" })],
-	build: {
-		lib: {
-			entry: resolve(__dirname, "src/index.ts"),
-			name: "Mutable",
-			fileName: "index",
-			formats: ["es", "umd"],
-		},
-	},
+  plugins: [dts({ include: "src" })],
+  build: {
+    lib: {
+      entry: resolve(__dirname, "src/index.ts"),
+      name: "Mutable",
+      fileName: "index",
+      formats: ["es", "umd"],
+    },
+  },
 });
