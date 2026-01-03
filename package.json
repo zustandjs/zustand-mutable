@@ -56,5 +56,8 @@
   },
   "peerDependencies": {
     "zustand": "^5.0.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
