@@ -27,7 +27,8 @@
     "test": "pnpm run \"/^test:.*/\"",
     "test:types": "tsc --noEmit",
     "test:lintFormat": "biome check ./src",
-    "test:spec": "vitest run"
+    "test:spec": "vitest run",
+    "release": "release publish"
   },
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
