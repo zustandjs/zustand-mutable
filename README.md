@@ -1,7 +1,7 @@
 # zustand-mutable
 
 [![npm version](https://img.shields.io/npm/v/zustand-mutable.svg)](https://www.npmjs.com/package/zustand-mutable)
-[![CI](https://github.com/zustandjs/zustand-mutable/actions/workflows/ci.yml/badge.svg)](https://github.com/zustandjs/zustand-mutable/actions/workflows/ci.yml)
+[![test](https://github.com/zustandjs/zustand-mutable/actions/workflows/test.yml/badge.svg)](https://github.com/zustandjs/zustand-mutable/actions/workflows/test.yml)
 [![license](https://img.shields.io/npm/l/zustand-mutable.svg)](https://github.com/zustandjs/zustand-mutable/blob/main/LICENSE)
 
 A sweet way to use immer-like mutable updates with Zustand.
