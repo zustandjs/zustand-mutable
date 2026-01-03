@@ -1,6 +1,6 @@
 {
   "name": "zustand-mutable",
-  "private": true,
+  "private": false,
   "description": "A sweet way to use immer-like mutable updates",
   "version": "0.0.2",
   "author": "Danilo Britto",
