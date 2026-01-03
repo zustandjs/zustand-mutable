@@ -6,7 +6,7 @@
   "author": "Danilo Britto",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zustandjs/zustand-mutable.git"
+    "url": "git+https://github.com/zustandjs/zustand-mutable.git"
   },
   "type": "module",
   "source": "./src/index.ts",
