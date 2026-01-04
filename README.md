@@ -212,7 +212,7 @@ set((state) => {
 
 ## Requirements
 
-- `zustand` >= 5.0.9 (peer dependency)
+- `zustand`
 - One of: `immer`, `mutative`, or `limu`
 
 ## License

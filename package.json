@@ -3,6 +3,15 @@
   "version": "0.1.1",
   "private": false,
   "description": "A sweet way to use immer-like mutable updates",
+  "keywords": [
+    "immer",
+    "immer-like",
+    "limu",
+    "middleware",
+    "mutable",
+    "mutative",
+    "zustand"
+  ],
   "author": "Danilo Britto",
   "repository": {
     "type": "git",
@@ -30,7 +39,9 @@
     "test": "pnpm run \"/^test:.*/\"",
     "test:types": "tsc --noEmit",
     "test:lint": "oxlint",
+    "test:lint:fix": "oxlint --fix",
     "test:fmt": "oxfmt --check",
+    "test:fmt:fix": "oxfmt --write",
     "test:spec": "vitest run",
     "release": "release publish"
   },
